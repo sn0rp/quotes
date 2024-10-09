@@ -1,0 +1,82 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.quoteContainer {
+  margin-bottom: 1.5rem;
+}
+
+.quote {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #444;
+  margin-bottom: 0.5rem;
+}
+
+.author {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #666;
+}
+
+.button {
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0051a2;
+}
+
+.button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.loading {
+  font-style: italic;
+  color: #666;
+}
+
+.error {
+  color: #d32f2f;
+  font-weight: bold;
+}
+
+.shareButtons {
+  margin-top: 1rem;
+}
+
+.shareButton {
+  background-color: #1da1f2;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.shareButton:hover {
+  background-color: #1a91da;
+}
